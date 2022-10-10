@@ -155,9 +155,7 @@ span {
   height: 200px;
   width: 200px;
 }
-.card h3,
-p {
-  display: inline-block;
+.card a {
   text-decoration: none;
   color: black;
 }
