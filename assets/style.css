@@ -8,7 +8,10 @@
 }
 
 /* CSS Home */
-.home {
+body {
+  background: #fbf2cf;
+}
+.nav {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -139,4 +142,41 @@ span {
 .c {
   width: 87%;
   background-color: #ff1e1e;
+}
+
+/* Article */
+.article {
+  text-align: center;
+}
+.article h1 {
+  padding-bottom: 30px;
+}
+.card img {
+  height: 200px;
+  width: 200px;
+}
+.card h3,
+p {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.card-baris {
+  width: 100%;
+  margin: 0 5px;
+}
+.card-kolom {
+  width: 20%;
+  float: left;
+  padding: 0 16px;
+}
+.card {
+  background-color: white;
+  padding: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.8s;
+}
+.card:hover {
+  background-color: #5f9df7;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8);
 }
