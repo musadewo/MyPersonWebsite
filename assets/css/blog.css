@@ -121,7 +121,7 @@ body{
     flex-wrap: wrap;
 }
 .blog-box{
-    width: 350px;
+    width: 500px;
     background-color: #fff;
     border: 1px solid #ececec;
     margin: 20px;
@@ -145,17 +145,12 @@ body{
     color: #f33c3c;
     font-size: 0.9rem;
 }
-.blog-text .blog-title{
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: #272727;
-}
-.blog-text .blog-title:hover{
-    color: #f33c3c;
-    transition: all ease 0.3s;
+
+.blog-text h3{
+    margin-top: 10px;
 }
 .blog-text p{
-    color: #9b9b9b;
+    color: var(--text-color);
     font-size: 0.9rem;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -163,14 +158,6 @@ body{
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 20px 0px;
-}
-.blog-text a{
-    margin-top: 10px;
-    color: black;
-}
-.blog-text a:hover{
-    color: #f33c3c;
-    transition: all ease 0.3s;
 }
 
 @media (max-width: 1250px){
